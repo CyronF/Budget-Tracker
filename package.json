@@ -1,5 +1,5 @@
 {
-  "name": "Budget-Tracker",
+  "name": "Progressive-Budget-Tracker",
   "version": "1.0.0",
   "description": "Allow for offline access and functionality for a budget tracker application where the user is able to add expenses and deposits and see a visual representation of funds.",
   "main": "index.js",
