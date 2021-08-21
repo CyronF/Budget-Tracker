@@ -1,0 +1,20 @@
+{
+  "name": "Progressive-Budget-Tracker",
+  "version": "1.0.0",
+  "description": "Allow for offline access and functionality for a budget tracker application where the user is able to add expenses and deposits and see a visual representation of funds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyronF/Progressive-Budget-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyronF/Progressive-Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/CyronF/Progressive-Budget-Tracker#readme"
+}
