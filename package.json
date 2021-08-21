@@ -1,10 +1,12 @@
 {
-  "name": "Progressive-Budget-Tracker",
+  "name": "Budget-Tracker",
   "version": "1.0.0",
   "description": "Allow for offline access and functionality for a budget tracker application where the user is able to add expenses and deposits and see a visual representation of funds.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
