@@ -1,5 +1,4 @@
-
-# Progressive-Budget-Tracker
+# Budget-Tracker
 
 ## Assignment
 
