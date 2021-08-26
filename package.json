@@ -1,19 +1,8 @@
 {
-  "name": "progressive-budget-tracker",
+  "name": "budget-tracker",
   "version": "1.0.0",
-  "description": "Allow for offline access and functionality for a budget tracker application where the user is able to add expenses and deposits and see a visual representation of funds.",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
-    "missing": "^0.0.1",
-    "mongoose": "^5.13.8",
-    "morgan": "^1.10.0",
-    "reduce": "^1.0.2"
-  },
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -28,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/CyronF/Progressive-Budget-Tracker/issues"
   },
-  "homepage": "https://github.com/CyronF/Progressive-Budget-Tracker#readme"
+  "homepage": "https://github.com/CyronF/Progressive-Budget-Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.3",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  }
 }
