@@ -33,7 +33,7 @@ function saveRecord(record) {
 }
 
 function checkDatabase() {
-  const db = request.results;
+  const db = request.result;
   const transaction = db.transaction(["BudgetStore"], "readwrite");
   const budgetStore = transaction.objectStore("BudgetStore");
   const getAll = budgetStore.getAll();
