@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGO_ATLAS || "mongodb://localhost/budget", {
+mongoose.connect("mongodb+srv://herokuApps:password36@cluster0.w57kd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
